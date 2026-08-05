@@ -1,0 +1,23 @@
+description: Ultralytics YOLO26n model trained on /kaggle/input/datasets/phucng2112/robocon/roboconmodel/ROBOCON.v5-sss.yolov11/data.yaml
+author: Ultralytics
+date: '2026-07-20T07:24:06.850910'
+version: 8.4.102
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 416
+- 416
+names:
+  0: al
+  1: chip
+  2: qr
+  3: yt
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false
